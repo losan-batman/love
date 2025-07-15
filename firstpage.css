@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* TAG SELECTOR */
+body{
+    background-color: #FF2DD1;
+}
+
+
+
+/* CLASS SELECTOR */
+.message{
+   height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.icon{
+    color: white;
+    font-size: 100rem;
+}
+ /* .neon{
+    text-shadow: 
+            0 0 0.5rem lightpink
+            0 0 1.0rem lightcoral
+            0 00 
+}  */
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    position: absolute;
+    margin-top: 80px;
+    width: 40ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(40) ;
+
+}
+
+@keyframes typing {
+    from{
+        width: 0;
+    }
+    
+}
+
+
+/* ID SELECTOR */
