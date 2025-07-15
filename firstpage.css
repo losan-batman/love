@@ -6,7 +6,11 @@
 
 /* TAG SELECTOR */
 body{
-    background-color: #FF2DD1;
+    background: radial-gradient( circle,
+    rgba(255, 45, 209, 1) 25%,
+    rgba(179, 55, 145, 1) 100%
+
+);
 }
 
 
@@ -19,14 +23,14 @@ body{
 }
 .icon{
     color: white;
-    font-size: 100rem;
+
 }
- /* .neon{
+  .neon{
     text-shadow: 
             0 0 0.5rem lightpink
             0 0 1.0rem lightcoral
-            0 00 
-}  */
+         
+}  
 .text{
     font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
@@ -35,7 +39,7 @@ body{
     width: 40ch;
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 3s steps(40) ;
+    animation: typing 5s steps(40) ;
 
 }
 
