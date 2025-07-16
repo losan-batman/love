@@ -2,6 +2,12 @@
     margin: 0%;
     padding: 0%;
 }
+.emilys-candy-regular {
+  font-family: "Emilys Candy", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 
 /* TAG SELECTOR */
@@ -13,6 +19,34 @@ body{
 );
 }
 
+button{
+    padding: 1em 2em;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 1000px;
+    font-family: "Emilys Candy", serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+button::after{
+    content: "";
+    position: absolute;
+    height: 110%;
+    width: 105%;
+    border-radius: 1000px;
+    background-image: linear-gradient(to bottom right, #1e1890, #B33791);
+    z-index: -1;
+
+}
+
+button:hover{
+    z-index: 0;
+    box-shadow: 40px 0 100px #7F55B1, -40px 0 100px #610949;
+}
 
 
 /* CLASS SELECTOR */
@@ -21,16 +55,8 @@ body{
     display: grid;
     place-items: center;
 }
-.icon{
-    color: white;
 
-}
-  .neon{
-    text-shadow: 
-            0 0 0.5rem lightpink
-            0 0 1.0rem lightcoral
-         
-}  
+
 .text{
     font-family: 'Courier New', Courier, monospace;
     font-size: 3rem;
